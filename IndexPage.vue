@@ -56,7 +56,7 @@ async function fetchTestimonials(){
   try {
     const response = await axios.get('https://www.marketing-backend.scientiflow.com/api/testimonials', {
       headers: {
-        Authorization: 'Bearer 9d13375ffa60153ff36a8b802ff4f4e72aec52e0a5ad752a435e3d26736d36a80479056f21d5831f6a5a783f2524987ae51be2c88c1032f642cfb110d7577e567a49e65f83e7cb0aca79037ee8fb295ecc160cb5cb4b8d317582379bb10403a788b090ed2e3703da52b1f84cd2ff824e387990269cbbedbc614ef1b969d63666', // Replace with your actual bearer token
+        Authorization: 'Bearer 9d13375ffa60153ff36a8b802ff4f4e72aec52e0a5ad752a435e3d26736d36a80479056f21d5831f6a5a783f2524987ae51be2c88c1032f642cfb110d7577e567a49e65f83e7cb0aca79037ee8fb295ecc160cb5cb4b8d317582379bb10403a788b090ed2e3703da52b1f84cd2ff824e387990269cbbedbc614ef1b969d63666',
       },
     });
 
